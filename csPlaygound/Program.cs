@@ -83,6 +83,48 @@ temperature = 34.4;
 
 Console.WriteLine("Hello, " + firstName2 + "! You have " + messages + " messages in your inbox. The temperature is " + temperature + " celcius.");
 
+// Format output using charecter escape sequences
+    // \n - new line
+    // \t - tab
+    // \\ - backslash
+    // \" - double quote
+    // \' - single quote
+// create the mockup of the command line tool
+Console.WriteLine("Generate invoices for customer \"Contoso\" ...\n");
+Console.WriteLine("Invoice: 1021\t\tComplete!");
+Console.WriteLine("Invoice: 1022\t\tComplete!");
+Console.WriteLine("\nOutput Directory:\t");
+
+// Generate invoices for customer "Contoso" ...
+// Invoice: 1021		Complete!
+// Invoice: 1022		Complete!
+// Output Directory:
+
+// Verbatim string literal
+Console.WriteLine(@"    c:\source\repos
+        (this is where your code goes)");
 
 
+// Verbatim string literal
+Console.WriteLine(@"Generate invoices for customer ""Contoso"" ...
+");
+Console.WriteLine(@"Invoice: 1021   Complete!");
+Console.WriteLine(@"Invoice: 1022   Complete!");
+Console.WriteLine(@"    Output Directory:");
 
+Console.Write(@"c:\invoices");
+Console.WriteLine(); // new line
+
+// Combine strings using string concatenation
+string firstName3 = "Bob";
+string message2 = "Hello " + firstName3;
+Console.WriteLine(message2);
+// This is called intermediate variables and should be avoided
+
+string firstName4 = "Bob";
+string message4 = "Hello";
+Console.WriteLine(message4 + " " + firstName4 + "!");
+
+// Combine strings using string interpolation
+string message5 = $"{message4} {firstName4}!";
+Console.WriteLine(message5);
