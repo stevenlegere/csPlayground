@@ -1,0 +1,14 @@
+/Users/stevenlegere/Documents/Development/Repositories/PracticeCode/stevesPlayground/csPlayground/csPlaygound/bin/Debug/net7.0/csPlaygound
+/Users/stevenlegere/Documents/Development/Repositories/PracticeCode/stevesPlayground/csPlayground/csPlaygound/bin/Debug/net7.0/csPlaygound.deps.json
+/Users/stevenlegere/Documents/Development/Repositories/PracticeCode/stevesPlayground/csPlayground/csPlaygound/bin/Debug/net7.0/csPlaygound.runtimeconfig.json
+/Users/stevenlegere/Documents/Development/Repositories/PracticeCode/stevesPlayground/csPlayground/csPlaygound/bin/Debug/net7.0/csPlaygound.dll
+/Users/stevenlegere/Documents/Development/Repositories/PracticeCode/stevesPlayground/csPlayground/csPlaygound/bin/Debug/net7.0/csPlaygound.pdb
+/Users/stevenlegere/Documents/Development/Repositories/PracticeCode/stevesPlayground/csPlayground/csPlaygound/obj/Debug/net7.0/csPlaygound.GeneratedMSBuildEditorConfig.editorconfig
+/Users/stevenlegere/Documents/Development/Repositories/PracticeCode/stevesPlayground/csPlayground/csPlaygound/obj/Debug/net7.0/csPlaygound.AssemblyInfoInputs.cache
+/Users/stevenlegere/Documents/Development/Repositories/PracticeCode/stevesPlayground/csPlayground/csPlaygound/obj/Debug/net7.0/csPlaygound.AssemblyInfo.cs
+/Users/stevenlegere/Documents/Development/Repositories/PracticeCode/stevesPlayground/csPlayground/csPlaygound/obj/Debug/net7.0/csPlaygound.csproj.CoreCompileInputs.cache
+/Users/stevenlegere/Documents/Development/Repositories/PracticeCode/stevesPlayground/csPlayground/csPlaygound/obj/Debug/net7.0/csPlaygound.dll
+/Users/stevenlegere/Documents/Development/Repositories/PracticeCode/stevesPlayground/csPlayground/csPlaygound/obj/Debug/net7.0/refint/csPlaygound.dll
+/Users/stevenlegere/Documents/Development/Repositories/PracticeCode/stevesPlayground/csPlayground/csPlaygound/obj/Debug/net7.0/csPlaygound.pdb
+/Users/stevenlegere/Documents/Development/Repositories/PracticeCode/stevesPlayground/csPlayground/csPlaygound/obj/Debug/net7.0/csPlaygound.genruntimeconfig.cache
+/Users/stevenlegere/Documents/Development/Repositories/PracticeCode/stevesPlayground/csPlayground/csPlaygound/obj/Debug/net7.0/ref/csPlaygound.dll
