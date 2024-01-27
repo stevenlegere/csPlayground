@@ -129,4 +129,26 @@ Console.WriteLine(message4 + " " + firstName4 + "!");
 string message5 = $"{message4} {firstName4}!";
 Console.WriteLine(message5);
 
-// 
+
+string firstName5 = "Bobby";
+string greeting = "Hello";
+Console.WriteLine($"{greeting} {firstName5}!");
+
+// Hello Bob
+
+// Combine strings using string interpolation
+// instead of this
+string message6 = greeting + " " + firstName5 + "!";
+Console.WriteLine(message6);
+
+// use interpolation using template string
+string message7 = $"{greeting} {firstName}!";
+Console.WriteLine(message7);
+
+// instead of this
+string message8 = greeting + " " + firstName + "!";
+Console.WriteLine(message8);
+
+// use interpolation using template string
+string message9 = $"{greeting} {firstName}!";
+Console.WriteLine(message9);
