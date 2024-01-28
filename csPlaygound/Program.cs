@@ -133,22 +133,57 @@ Console.WriteLine(message5);
 string firstName5 = "Bobby";
 string greeting = "Hello";
 Console.WriteLine($"{greeting} {firstName5}!");
-
-// Hello Bob
+// Hello Bobby!
 
 // Combine strings using string interpolation
 // instead of this
 string message6 = greeting + " " + firstName5 + "!";
 Console.WriteLine(message6);
+// Hello Bobby!
 
 // use interpolation using template string
 string message7 = $"{greeting} {firstName}!";
 Console.WriteLine(message7);
+// Hello Robert!
 
 // instead of this
 string message8 = greeting + " " + firstName + "!";
 Console.WriteLine(message8);
+// Hello Robert!
 
 // use interpolation using template string
 string message9 = $"{greeting} {firstName}!";
 Console.WriteLine(message9);
+// Hello Robert!
+
+
+// Use string interpolation to combine a literal string and a variable value
+int version = 11;
+string updateText = "Update to Windows";
+string message10 = $"{updateText} {version}";
+Console.WriteLine(message10);
+// Update to Windows 11
+    // Avoid using intermediate variable
+
+// More Concise
+int version2 = 11;
+string updateText2 = "Update to Windows";
+Console.WriteLine($" {updateText2} {version2}!");
+// Update to Windows 11
+
+// Combine verbatim literals and string interpolation
+    // You can use both the verbatim literal prefix symbol @ and the string interpolation $ symbol together
+string projectName = "First-Project";
+Console.WriteLine($@"C:\Output\{projectName}\Data");
+// C:\Output\First-Project\Data
+
+
+string projectName2 = "ACME";
+Console.WriteLine("View English output:\t");
+Console.WriteLine($"\tc:\\Exercise\\{projectName}\\data.txt");
+
+string russionMessage = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434";
+Console.WriteLine($"\n {russionMessage}:\n\tc:\\Exercise\\{projectName}\\ru-RU\\data.txt");
+
+// Recommended solution
+string projectName3 = "ACME";
