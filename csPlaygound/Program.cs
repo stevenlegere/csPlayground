@@ -180,10 +180,47 @@ Console.WriteLine($@"C:\Output\{projectName}\Data");
 
 string projectName2 = "ACME";
 Console.WriteLine("View English output:\t");
-Console.WriteLine($"\tc:\\Exercise\\{projectName}\\data.txt");
+Console.WriteLine($"\tc:\\Exercise\\{projectName2}\\data.txt");
 
-string russionMessage = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434";
-Console.WriteLine($"\n {russionMessage}:\n\tc:\\Exercise\\{projectName}\\ru-RU\\data.txt");
+string russianMessage = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434";
+Console.WriteLine($"\n {russianMessage}:\n\tc:\\Exercise\\{projectName}\\ru-RU\\data.txt");
 
 // Recommended solution
 string projectName3 = "ACME";
+string englishLocation = $@"c:\Exercise\{projectName3}\data.txt";
+Console.WriteLine($"View English output:\n\t\t{englishLocation}\n");
+
+string russianMessage2 = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434";
+string russianLocation2 = $@"c\Exercise\{projectName3}\ru-RU\data.txt";
+Console.WriteLine($"{russianMessage2}:\n\t\t{russianLocation2}");
+
+//  Perform addition with implicit data conversion
+    // '+' operator can be used to add two numbers or to concatenate two strings
+int firstNumber = 12;
+int secondNumber = 7;
+Console.WriteLine(firstNumber + secondNumber);
+// 19
+
+// Mix data types to force implicit type conversions
+string firstName6 = "Steve";
+int widgetsSold = 7;
+Console.WriteLine(firstName6 + " sold " + widgetsSold + " widgets.");
+// Steve sold 7 widgets.
+
+// Attempt a more advanced case of adding numbers and concatenating strings
+string firstName7 = "Steve";
+int widgetsSold2 = 10;
+Console.WriteLine(firstName7 + " sold " + widgetsSold2 + 7 + " widgets.");
+// Steve sold 107 widgets.
+
+string firstName8 = "Steve";
+int widgetsSold3 = 10;
+Console.WriteLine(firstName8 + " sold " + (widgetsSold3 + 7) + " widgets.");
+// Steve sold 17 widgets.
+    // avoid performing both a calculation and concatenation in a single line of code
+
+string firstName9 = "Steve";
+int widgetsSold4 = 20;
+string message11 = firstName9 + " sold " + (widgetsSold4 + 7) + " widgets.";
+Console.WriteLine(message11);
+// Steve sold 27 widgets.
