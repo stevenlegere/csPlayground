@@ -224,3 +224,43 @@ int widgetsSold4 = 20;
 string message11 = firstName9 + " sold " + (widgetsSold4 + 7) + " widgets.";
 Console.WriteLine(message11);
 // Steve sold 27 widgets.
+
+
+// Perform math operations
+    // Perform addition with explicit data conversion
+int sum = 7 + 5;
+int difference = 7 - 5;
+int product = 7 * 5;
+int quotient = 7 / 5;
+
+Console.WriteLine("Sum: " + sum);
+Console.WriteLine("Difference: " + difference);
+Console.WriteLine("Product: " + product);
+Console.WriteLine("Quotient: " + quotient);
+
+// Sum: 12
+// Difference: 2
+// Product: 35
+// Quotient: 1
+
+// Add code to perform division using literal decimal data
+decimal decimalQuotient = 7.0m / 5;
+Console.WriteLine($"Decimal quotient: {decimalQuotient}");
+// Decimal quotient: 1.4
+
+decimal decimalQuotient2 = 7 / 5.0m;
+Console.WriteLine($"{decimalQuotient2}");
+// 1.4
+
+// Add code to perform division using literal decimal data
+int first = 7;
+int second = 5;
+decimal quotient2 = (decimal)first / (decimal)second;
+Console.WriteLine(quotient2);
+// 1.4
+
+// Write code to determine the remainder after integer division
+Console.WriteLine($"Modulus of 200 / 5 : {200 % 5}");
+Console.WriteLine($"Modulus of 7 / 5 : {7 % 5}");
+// Modulus of 200 / 5 : 0
+// Modulus of 7 / 5 : 2
