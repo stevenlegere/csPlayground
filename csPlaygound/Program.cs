@@ -313,5 +313,17 @@ Console.WriteLine($"Second: {value5++}");
 Console.WriteLine($"Third: " + value5);
 Console.WriteLine("Fourth: " + (++value5));
 
+// Convert Fahrenheit to Celsius
+int fahrenheit = 94;
+double celsius = (fahrenheit - 32) * 5.0 / 9.0;
+Console.WriteLine($"The temperature is {celsius} Celsius.");
+// The temperature is 34.4444444444444 Celsius.
+
+    // Recommended solution
+int fahrenheit2 = 94;
+decimal celsius2 = (fahrenheit - 32m) * (5m / 9m);
+Console.WriteLine("The temperature is " + celsius2 + " Celsius.");
+// The temperature is 34.
+
 
 
