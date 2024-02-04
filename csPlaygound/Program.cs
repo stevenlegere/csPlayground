@@ -264,3 +264,54 @@ Console.WriteLine($"Modulus of 200 / 5 : {200 % 5}");
 Console.WriteLine($"Modulus of 7 / 5 : {7 % 5}");
 // Modulus of 200 / 5 : 0
 // Modulus of 7 / 5 : 2
+
+// PEMDAS
+    // Parentheses
+    // Exponents
+    // Multiplication and Division
+    // Addition and Subtraction
+int value1 = 3 + 4 * 5;
+int value2 = (3 + 4) * 5;
+Console.WriteLine(value1);
+Console.WriteLine(value2);
+// 23
+// 35
+
+int value = 0; // 0
+value = value + 1; // 1
+value += 5; // 6
+Console.WriteLine(value);
+    // lines 1 and 2 are equivalent
+    // line 3 is a shorthand for line 2
+
+int value3 = 0; // 0
+value3 = value3 + 1; // 1
+value3++; // 2
+Console.WriteLine(value3);
+    // lines 1 and 2 are equivalent
+    // line 3 is a shorthand for line 2
+
+int value4 = 1; // 1
+value4 = value4 + 1;
+Console.WriteLine("First increment: " + value4); // 2
+value4 += 1;
+Console.WriteLine("Second increment: " + value4); // 3
+value4++;
+Console.WriteLine("Third increment: " + value4); // 4
+value4 = value4 - 1;
+Console.WriteLine("First decrement: " + value4); // 3
+value4 -= 1;
+Console.WriteLine("Second decrement: " + value4); // 2
+value4--;
+Console.WriteLine("Third decrement: " + value4); // 1
+
+// Use the increment operator using string interpolation
+int value5 = 1;
+value5++;
+Console.WriteLine("First: " + value5);
+Console.WriteLine($"Second: {value5++}");
+Console.WriteLine($"Third: " + value5);
+Console.WriteLine("Fourth: " + (++value5));
+
+
+
