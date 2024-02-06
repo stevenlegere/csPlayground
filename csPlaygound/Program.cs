@@ -327,40 +327,49 @@ Console.WriteLine("The temperature is " + celsius2 + " Celsius.");
 
 
 // initialize variables - graded assignments 
-int currentAssignments = 5;
+// This section initializes variables representing scores for different students and their assignments.
+int currentAssignments = 5; // Number of current assignments.
 
+// Scores for Sophia across 5 assignments.
 int sophia1 = 93;
 int sophia2 = 87;
 int sophia3 = 98;
 int sophia4 = 95;
 int sophia5 = 100;
-
+// Scores for Nicolas across 5 assignments.
 int nicolas1 = 80;
 int nicolas2 = 83;
 int nicolas3 = 82;
 int nicolas4 = 88;
 int nicolas5 = 85;
-
+// Scores for Zahirah across 5 assignments.
 int zahirah1 = 84;
 int zahirah2 = 96;
 int zahirah3 = 73;
 int zahirah4 = 85;
 int zahirah5 = 79;
-
+// Scores for Jeong across 5 assignments.
 int jeong1 = 90;
 int jeong2 = 92;
 int jeong3 = 98;
 int jeong4 = 100;
 int jeong5 = 97;
-
-int sophiaSum = 0;
-int nicolasSum = 0;
-int zahirahSum = 0;
-int jeongSum = 0;
-
-Console.WriteLine("Sophia: " + sophiaSum);
-Console.WriteLine("Nicolas: " + nicolasSum);
-Console.WriteLine("Zahirah: " + zahirahSum);
-Console.WriteLine("Jeong: " + jeongSum);
+// Summing the scores for each student.
+int sophiaSum = sophia1 + sophia2 + sophia3 + sophia4 + sophia5;
+int nicolasSum = nicolas1 + nicolas2 + nicolas3 + nicolas4 + nicolas5;
+int zahirahSum = zahirah1 + zahirah2 + zahirah3 + zahirah4 + zahirah5;
+int jeongSum = jeong1 + jeong2 + jeong3 + jeong4 + jeong5;
+// Calculating the average score for each student.
+    // The average score is calculated by dividing the sum of the scores by the number of assignments.
+        // Casting the sum to a decimal to ensure the result is a decimal = (decimal) sophiaSum
+decimal sophiaScore = (decimal) sophiaSum / currentAssignments;
+decimal nicolasScore = (decimal) nicolasSum / currentAssignments;
+decimal zahirahScore = (decimal) zahirahSum / currentAssignments;
+decimal jeongScore = (decimal) jeongSum / currentAssignments;
+// Printing out the average scores along with their corresponding letter grades.
+Console.WriteLine("Sophia: " + sophiaScore + " A");
+Console.WriteLine("Nicolas: " + nicolasScore + " B");
+Console.WriteLine("Zahirah: " + zahirahScore + " B");
+Console.WriteLine("Jeong: " + jeongScore + " A");
 
 
