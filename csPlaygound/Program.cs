@@ -1,5 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
 Console.WriteLine("Hello, World!");
+        
+    
 
 Console.Write("Congratulations!");
 Console.Write(" ");
@@ -371,5 +374,11 @@ Console.WriteLine("Sophia: " + sophiaScore + " A");
 Console.WriteLine("Nicolas: " + nicolasScore + " B");
 Console.WriteLine("Zahirah: " + zahirahScore + " B");
 Console.WriteLine("Jeong: " + jeongScore + " A");
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+// Call methods or classes from CSharpFreeCodeCamp.cs
+        CSharpFreeCodeCamp.PrintToConsole();
+    
 
 
