@@ -378,8 +378,14 @@ Console.WriteLine("Nicolas:\t" + nicolasScore + "\tB");
 Console.WriteLine("Zahirah:\t" + zahirahScore + " \tB");
 Console.WriteLine("Jeong:\t\t" + jeongScore + "\tA");
 
-// Add decision logic to your code using `if`, `else`, and `else if` statements in C#
+string message12 = "The quick brown fox jumps over the lazy dog.";
+bool result = message12.Contains("dog");
+Console.WriteLine(result);
 
+if (message12.Contains("fox"))
+{
+    Console.WriteLine("What does the fox say?");
+}
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
