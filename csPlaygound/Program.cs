@@ -369,16 +369,22 @@ decimal sophiaScore = (decimal) sophiaSum / currentAssignments;
 decimal nicolasScore = (decimal) nicolasSum / currentAssignments;
 decimal zahirahScore = (decimal) zahirahSum / currentAssignments;
 decimal jeongScore = (decimal) jeongSum / currentAssignments;
+
+Console.WriteLine("Student\t\tGrade\n");
+
 // Printing out the average scores along with their corresponding letter grades.
-Console.WriteLine("Sophia: " + sophiaScore + " A");
-Console.WriteLine("Nicolas: " + nicolasScore + " B");
-Console.WriteLine("Zahirah: " + zahirahScore + " B");
-Console.WriteLine("Jeong: " + jeongScore + " A");
+Console.WriteLine("Sophia:\t\t" + sophiaScore + "\tA");
+Console.WriteLine("Nicolas:\t" + nicolasScore + "\tB");
+Console.WriteLine("Zahirah:\t" + zahirahScore + " \tB");
+Console.WriteLine("Jeong:\t\t" + jeongScore + "\tA");
+
+// Add decision logic to your code using `if`, `else`, and `else if` statements in C#
+
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
 // Call methods or classes from CSharpFreeCodeCamp.cs
-        CSharpFreeCodeCamp.PrintToConsole();
+       // CSharpFreeCodeCamp.PrintToConsole();
     
 
 
