@@ -442,7 +442,12 @@ Console.WriteLine($"{course5Name}\t\t{course5Grade}\t\t{course5Credit}");
 
 Console.WriteLine($"\nFinal GPA:\t\t\t {leadingDigit}.{firstDigit}{secondDigit}");
 
-// Exercise - Store the numeric grade values for each course
+// Call different kinds of methods in the .NET Class Library
+    // System.Random
+        // System.Console
+Random dice = new Random();
+int roll = dice.Next(1, 7);
+Console.WriteLine(roll);
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
