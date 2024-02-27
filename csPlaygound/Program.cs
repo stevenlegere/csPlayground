@@ -450,6 +450,11 @@ Random dice = new(); // Target-typed constructor invocation (C# 9.0)
 int roll = dice.Next(1, 7);
 Console.WriteLine(roll);
 
+Random dice2 = new Random(); // stateful method, must create an instance of the class
+int roll2 = dice2.Next(1, 7); // Access the Next method on an onject of the class.
+                            // An instance of a class is called an object
+Console.WriteLine(roll2);
+
 ////////////////////////////////////////////////////////////////////////////////////////
 
 // Call methods or classes from CSharpFreeCodeCamp.cs
