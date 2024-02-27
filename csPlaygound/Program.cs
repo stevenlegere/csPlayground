@@ -445,7 +445,8 @@ Console.WriteLine($"\nFinal GPA:\t\t\t {leadingDigit}.{firstDigit}{secondDigit}"
 // Call different kinds of methods in the .NET Class Library
     // System.Random
         // System.Console
-Random dice = new Random();
+//Random dice = new Random();
+Random dice = new(); // Target-typed constructor invocation (C# 9.0)
 int roll = dice.Next(1, 7);
 Console.WriteLine(roll);
 
