@@ -455,6 +455,17 @@ int roll2 = dice2.Next(1, 7); // Access the Next method on an onject of the clas
                             // An instance of a class is called an object
 Console.WriteLine(roll2);
 
+Random dice3 = new Random();
+int roll3 = dice3.Next();
+int roll4 = dice3.Next(101);
+int roll5 = dice3.Next(50, 101);
+
+Console.WriteLine($"First roll: {roll3}");
+Console.WriteLine($"Second roll: {roll4}");
+Console.WriteLine($"Third roll: {roll5}");
+
+dice3.Next()
+
 ////////////////////////////////////////////////////////////////////////////////////////
 
 // Call methods or classes from CSharpFreeCodeCamp.cs
