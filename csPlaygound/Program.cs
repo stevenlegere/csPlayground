@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 Console.WriteLine("Hello, World!");
-        
-    
+
+
 
 Console.Write("Congratulations!");
 Console.Write(" ");
@@ -17,10 +17,10 @@ Console.Write("the second ");
 Console.Write("line.");
 
 // Store and retrieve data using literal and variable values
-    // ('') creates a charecter literal
-    // ("") creates a string literal
-    // (true) creates a boolean literal
-    // (123) creates an integer literal
+// ('') creates a charecter literal
+// ("") creates a string literal
+// (true) creates a boolean literal
+// (123) creates an integer literal
 
 // Make new line using \n
 Console.Write("\n");
@@ -31,9 +31,9 @@ Console.WriteLine(true);
 Console.WriteLine(123);
 
 // Floating-point literals/ numbers
-    // float
-    // double
-    // decimal
+// float
+// double
+// decimal
 
 Console.WriteLine(0.25F); // float
 Console.WriteLine(2.625); // double
@@ -71,11 +71,11 @@ var message = "Hello World!"; // Cannot reasign a var
 Console.WriteLine(message);
 
 // Display literal and variable values
-    // Store the following values in variables
-        // Bob
-        // 3
-        // 34.4
-            // Hello, Bob! You have 3 messages in your inbox. The temperature is 34.4 celsius.
+// Store the following values in variables
+// Bob
+// 3
+// 34.4
+// Hello, Bob! You have 3 messages in your inbox. The temperature is 34.4 celsius.
 string firstName2;
 int messages;
 double temperature;
@@ -87,11 +87,11 @@ temperature = 34.4;
 Console.WriteLine("Hello, " + firstName2 + "! You have " + messages + " messages in your inbox. The temperature is " + temperature + " celcius.");
 
 // Format output using charecter escape sequences
-    // \n - new line
-    // \t - tab
-    // \\ - backslash
-    // \" - double quote
-    // \' - single quote
+// \n - new line
+// \t - tab
+// \\ - backslash
+// \" - double quote
+// \' - single quote
 // create the mockup of the command line tool
 Console.WriteLine("Generate invoices for customer \"Contoso\" ...\n");
 Console.WriteLine("Invoice: 1021\t\tComplete!");
@@ -166,7 +166,7 @@ string updateText = "Update to Windows";
 string message10 = $"{updateText} {version}";
 Console.WriteLine(message10);
 // Update to Windows 11
-    // Avoid using intermediate variable
+// Avoid using intermediate variable
 
 // More Concise
 int version2 = 11;
@@ -175,7 +175,7 @@ Console.WriteLine($" {updateText2} {version2}!");
 // Update to Windows 11
 
 // Combine verbatim literals and string interpolation
-    // You can use both the verbatim literal prefix symbol @ and the string interpolation $ symbol together
+// You can use both the verbatim literal prefix symbol @ and the string interpolation $ symbol together
 string projectName = "First-Project";
 Console.WriteLine($@"C:\Output\{projectName}\Data");
 // C:\Output\First-Project\Data
@@ -198,7 +198,7 @@ string russianLocation2 = $@"c\Exercise\{projectName3}\ru-RU\data.txt";
 Console.WriteLine($"{russianMessage2}:\n\t\t{russianLocation2}");
 
 //  Perform addition with implicit data conversion
-    // '+' operator can be used to add two numbers or to concatenate two strings
+// '+' operator can be used to add two numbers or to concatenate two strings
 int firstNumber = 12;
 int secondNumber = 7;
 Console.WriteLine(firstNumber + secondNumber);
@@ -220,7 +220,7 @@ string firstName8 = "Steve";
 int widgetsSold3 = 10;
 Console.WriteLine(firstName8 + " sold " + (widgetsSold3 + 7) + " widgets.");
 // Steve sold 17 widgets.
-    // avoid performing both a calculation and concatenation in a single line of code
+// avoid performing both a calculation and concatenation in a single line of code
 
 string firstName9 = "Steve";
 int widgetsSold4 = 20;
@@ -230,7 +230,7 @@ Console.WriteLine(message11);
 
 
 // Perform math operations
-    // Perform addition with explicit data conversion
+// Perform addition with explicit data conversion
 int sum = 7 + 5;
 int difference = 7 - 5;
 int product = 7 * 5;
@@ -269,10 +269,10 @@ Console.WriteLine($"Modulus of 7 / 5 : {7 % 5}");
 // Modulus of 7 / 5 : 2
 
 // PEMDAS
-    // Parentheses
-    // Exponents
-    // Multiplication and Division
-    // Addition and Subtraction
+// Parentheses
+// Exponents
+// Multiplication and Division
+// Addition and Subtraction
 int value1 = 3 + 4 * 5;
 int value2 = (3 + 4) * 5;
 Console.WriteLine(value1);
@@ -284,15 +284,15 @@ int value = 0; // 0
 value = value + 1; // 1
 value += 5; // 6
 Console.WriteLine(value);
-    // lines 1 and 2 are equivalent
-    // line 3 is a shorthand for line 2
+// lines 1 and 2 are equivalent
+// line 3 is a shorthand for line 2
 
 int value3 = 0; // 0
 value3 = value3 + 1; // 1
 value3++; // 2
 Console.WriteLine(value3);
-    // lines 1 and 2 are equivalent
-    // line 3 is a shorthand for line 2
+// lines 1 and 2 are equivalent
+// line 3 is a shorthand for line 2
 
 int value4 = 1; // 1
 value4 = value4 + 1;
@@ -322,7 +322,7 @@ double celsius = (fahrenheit - 32) * 5.0 / 9.0;
 Console.WriteLine($"The temperature is {celsius} Celsius.");
 // The temperature is 34.4444444444444 Celsius.
 
-    // Recommended solution
+// Recommended solution
 int fahrenheit2 = 94;
 decimal celsius2 = (fahrenheit2 - 32m) * (5m / 9m);
 Console.WriteLine("The temperature is " + celsius2 + " Celsius.");
@@ -363,12 +363,12 @@ int nicolasSum = nicolas1 + nicolas2 + nicolas3 + nicolas4 + nicolas5;
 int zahirahSum = zahirah1 + zahirah2 + zahirah3 + zahirah4 + zahirah5;
 int jeongSum = jeong1 + jeong2 + jeong3 + jeong4 + jeong5;
 // Calculating the average score for each student.
-    // The average score is calculated by dividing the sum of the scores by the number of assignments.
-        // Casting the sum to a decimal to ensure the result is a decimal = (decimal) sophiaSum
-decimal sophiaScore = (decimal) sophiaSum / currentAssignments;
-decimal nicolasScore = (decimal) nicolasSum / currentAssignments;
-decimal zahirahScore = (decimal) zahirahSum / currentAssignments;
-decimal jeongScore = (decimal) jeongSum / currentAssignments;
+// The average score is calculated by dividing the sum of the scores by the number of assignments.
+// Casting the sum to a decimal to ensure the result is a decimal = (decimal) sophiaSum
+decimal sophiaScore = (decimal)sophiaSum / currentAssignments;
+decimal nicolasScore = (decimal)nicolasSum / currentAssignments;
+decimal zahirahScore = (decimal)zahirahSum / currentAssignments;
+decimal jeongScore = (decimal)jeongSum / currentAssignments;
 
 Console.WriteLine("Student\t\tGrade\n");
 
@@ -425,11 +425,11 @@ totalGradePoints += course3Credit * course3Grade;
 totalGradePoints += course4Credit * course4Grade;
 totalGradePoints += course5Credit * course5Grade;
 
-decimal gradePointAverage = (decimal) totalGradePoints / totalCreditHours;
+decimal gradePointAverage = (decimal)totalGradePoints / totalCreditHours;
 
-int leadingDigit = (int) gradePointAverage;
-int firstDigit = (int) (gradePointAverage * 10) % 10;
-int secondDigit = (int) (gradePointAverage * 100) % 10;
+int leadingDigit = (int)gradePointAverage;
+int firstDigit = (int)(gradePointAverage * 10) % 10;
+int secondDigit = (int)(gradePointAverage * 100) % 10;
 
 Console.WriteLine($"Student: {studentName}\n");
 Console.WriteLine("Course\t\t\t\tGrade\tCredit Hours");
@@ -443,8 +443,8 @@ Console.WriteLine($"{course5Name}\t\t{course5Grade}\t\t{course5Credit}");
 Console.WriteLine($"\nFinal GPA:\t\t\t {leadingDigit}.{firstDigit}{secondDigit}");
 
 // Call different kinds of methods in the .NET Class Library
-    // System.Random
-        // System.Console
+// System.Random
+// System.Console
 //Random dice = new Random();
 Random dice = new(); // Target-typed constructor invocation (C# 9.0)
 int roll = dice.Next(1, 7);
@@ -452,7 +452,7 @@ Console.WriteLine(roll);
 
 Random dice2 = new Random(); // stateful method, must create an instance of the class
 int roll2 = dice2.Next(1, 7); // Access the Next method on an onject of the class.
-                            // An instance of a class is called an object
+                              // An instance of a class is called an object
 Console.WriteLine(roll2);
 
 Random dice3 = new Random();
@@ -464,12 +464,20 @@ Console.WriteLine($"First roll: {roll3}");
 Console.WriteLine($"Second roll: {roll4}");
 Console.WriteLine($"Third roll: {roll5}");
 
-dice3.Next()
+// Math class methods challenge
+int firstValue = 500;
+int secondValue = 600;
+int largerValue = Math.Max(firstValue, secondValue);
+
+Console.WriteLine(largerValue);
+
+
+
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
 // Call methods or classes from CSharpFreeCodeCamp.cs
-       // CSharpFreeCodeCamp.PrintToConsole();
-    
+// CSharpFreeCodeCamp.PrintToConsole();
+
 
 
